@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אמצעים רטוריים</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #2c3e50;
+            position: fixed;
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            background-color: #3498db;
+        }
+
+        .content {
+            margin-right: 200px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .example {
+            background-color: #f8f9fa;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        .purpose {
+            background-color: #e8f6f3;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        #back-to-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 99;
+            border: none;
+            outline: none;
+            background-color: #3498db;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        #back-to-top:hover {
+            background-color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+        <a href="#home"><i class="fas fa-home"></i> ראשי</a>
+        <a href="#ambiguity"><i class="fas fa-random"></i> דו-משמעות</a>
+        <a href="#direct-speech"><i class="fas fa-comments"></i> דיבור ישיר</a>
+        <a href="#exaggeration"><i class="fas fa-chart-line"></i> הגזמה והכללה</a>
+        <a href="#repetition"><i class="fas fa-sync"></i> חזרות</a>
+        <a href="#figurative"><i class="fas fa-palette"></i> לשון ציורית</a>
+        <a href="#loaded"><i class="fas fa-fire"></i> מילים טעונות</a>
+        <a href="#personal"><i class="fas fa-user"></i> פנייה אישית</a>
+        <a href="#rhetorical-questions"><i class="fas fa-question"></i> שאלות רטוריות</a>
+        <a href="#personal-story"><i class="fas fa-book-reader"></i> סיפור אישי</a>
+        <a href="#quotes"><i class="fas fa-quote-right"></i> ציטוטים</a>
+    </div>
+
+    <div class="content">
+        <h1 id="home">אמצעים רטוריים - איך ולמה משכנעים אותנו?</h1>
+
+        <div class="card" id="ambiguity">
+            <h2>דו-משמעות</h2>
+            <p><strong>מה זה?</strong> כשמשתמשים במילה שיש לה שתי משמעויות שונות.</p>
+            <div class="purpose"><strong>למה משתמשים בזה?</strong> כדי למשוך תשומת לב ולגרום לקוראים לחשוב פעמיים. זה יוצר עניין והופך את הטקסט למתוחכם ומעניין יותר.</div>
+            <div class="example"><strong>דוגמה:</strong> "בנק הפועלים עובד בשבילך" - המילה "עובד" יכולה להתפרש כ"פועל" או כ"מצליח".</div>
+        </div>
+
+        <div class="card" id="direct-speech">
+            <h2>דיבור ישיר</h2>
+            <p><strong>מה זה?</strong> ציטוט מדויק של מה שמישהו אמר.</p>
+            <div class="purpose"><strong>למה משתמשים בזה?</strong> כדי ליצור אמינות ולתת תחושה שהדברים אמיתיים ומדויקים. זה גם מוסיף חיים לטקסט ועושה אותו יותר מעניין.</div>
+            <div class="example"><strong>דוגמה:</strong> במקום לכתוב "הנשיא אמר שהוא שמח", כותבים: הנשיא אמר: "אני שמח מאוד".</div>
+        </div>
+
+        <div class="card" id="exaggeration">
+            <h2>הגזמה והכללה</h2>
+            <p><strong>מה זה?</strong> שימוש במילים מגזימות או הצהרות שכוללות את כולם.</p>
+            <div class="purpose"><strong>למה משתמשים בזה?</strong> כדי להדגיש נקודה חשובה ולגרום לה להיראות משמעותית יותר. זה עוזר לשכנע אנשים שמשהו הוא חשוב או נפוץ.</div>
+            <div class="example"><strong>דוגמה:</strong> 
+            <ul>
+                <li>"המסעדה הכי טובה בעולם"</li>
+                <li>"כל הילדים אוהבים את המשחק הזה"</li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="card" id="repetition">
+            <h2>חזרות</h2>
+            <p><strong>מה זה?</strong> חזרה על מילה או רעיון כמה פעמים.</p>
+            <div class="purpose"><strong>למה משתמשים בזה?</strong> כדי להדגיש רעיון חשוב ולגרום לו להיחרט בזיכרון. החזרה עוזרת לזכור את המסר העיקרי.</div>
+            <div class="example"><strong>דוגמה:</strong> "מהיר יותר, חזק יותר, טוב יותר"</div>
+        </div>
+
+        <div class="card" id="figurative">
+            <h2>לשון ציורית</h2>
+            
+            <h3>1. דימוי</h3>
+            <p><strong>מה זה?</strong> השוואה בין שני דברים עם המילים "כמו" או "כ".</p>
+            <div class="purpose"><strong>למה משתמשים בזה?</strong> כדי להסביר משהו מורכב בעזרת משהו מוכר. זה עוזר להבין רעיונות בצורה טובה יותר.</div>
+            <div class="example"><strong>דוגמה:</strong> "מהיר כמו ברק"</div>
+
+            <h3>2. האנשה</h3>
+            <p><strong>מה זה?</strong> לתת תכונות אנושיות לדברים לא אנושיים.</p>
+            <div class="purpose"><strong>למה משתמשים בזה?</strong> כדי ליצור חיבור רגשי לדברים לא אנושיים ולגרום להם להיראות יותר מוכרים ומובנים.</div>
+            <div class="example"><strong>דוגמה:</strong> "הטלפון מת לי", "המחשב עייף"</div>
+
+            <h3>3. מטפורה</h3>
+            <p><strong>מה זה?</strong> השוואה בין דברים בלי להשתמש במילים "כמו" או "כ".</p>
+            <div class="purpose"><strong>למה משתמשים בזה?</strong> כדי ליצור תמונה חזקה בראש של הקורא ולהעביר רעיון בצורה עוצמתית.</div>
+            <div class="example"><strong>דוגמה:</strong> "הוא שועל" (במקום "הוא חכם כמו שועל")</div>
+        </div>
+
+        <div class="card" id="loaded">
+            <h2>מילים טעונות</h2>
+            <p><strong>מה זה?</strong> מילים שמעוררות רגשות חזקים.</p>
+            <div class="purpose"><strong>למה משתמשים בזה?</strong> כדי לעורר רגשות אצל הקוראים ולגרום להם להרגיש בדרך מסוימת כלפי הנושא.</div>
+            <div class="example"><strong>דוגמה:</strong>
+            <ul>
+                <li>מילים חיוביות: מדהים, נהדר, מושלם</li>
+                <li>מילים שליליות: נורא, מזעזע, איום</li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="card" id="personal">
+            <h2>פנייה אישית</h2>
+            <p><strong>מה זה?</strong> פנייה ישירה לקורא או למאזין.</p>
+            <div class="purpose"><strong>למה משתמשים בזה?</strong> כדי ליצור קשר אישי עם הקורא ולגרום לו להרגיש שהדברים נוגעים אליו באופן אישי.</div>
+            <div class="example"><strong>דוגמה:</strong> "גם אתה יכול להצליח!", "בוא תצטרף אלינו"</div>
+        </div>
+
+        <div class="card" id="rhetorical-questions">
+            <h2>שאלות רטוריות</h2>
+            <p><strong>מה זה?</strong> שאלות שלא מצפים לתשובה עליהן.</p>
+            <div class="purpose"><strong>למה משתמשים בזה?</strong> כדי לגרום לקוראים לחשוב ולהסכים עם הרעיון שמנסים להעביר, בלי לומר אותו במפורש.</div>
+            <div class="example"><strong>דוגמה:</strong> "למה לשלם יותר?" (כשברור שאין סיבה לשלם יותר)</div>
+        </div>
+
+        <div class="card" id="personal-story">
+            <h2>סיפור אישי</h2>
+            <p><strong>מה זה?</strong> שילוב של חוויה אישית בטקסט.</p>
+            <div class="purpose"><strong>למה משתמשים בזה?</strong> כדי ליצור אמינות ולגרום לקוראים להזדהות עם הכותב ועם המסר שהוא מנסה להעביר.</div>
+            <div class="example"><strong>דוגמה:</strong> "כשהייתי בגילכם, גם אני התלבטתי מה ללמוד..."</div>
+        </div>
+
+        <div class="card" id="quotes">
+            <h2>ציטוטים</h2>
+            <p><strong>מה זה?</strong> שימוש בדברים שאמרו אנשים ידועים או מומחים.</p>
+            <div class="purpose"><strong>למה משתמשים בזה?</strong> כדי לתת תוקף למה שאומרים ולהראות שאנשים חשובים או מומחים מסכימים איתנו.</div>
+            <div class="example"><strong>דוגמה:</strong> כמו שאמר איינשטיין: "הדמיון חשוב יותר מהידע"</div>
+        </div>
+
+        <button onclick="topFunction()" id="back-to-top" title="חזרה למעלה">חזרה למעלה</button>
+    </div>
+</div>
+
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("back-to-top").style.display = "block";
+        } else {
+            document.getElementById("back-to-top").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+</body>
+</html>
